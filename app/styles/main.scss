@@ -1,0 +1,44 @@
+$iconSpritePath: "../images/glyphicons-halflings.png";
+$iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
+
+$color: white;
+
+@import 'compass';
+@import 'superslides';
+@import 'sass-bootstrap/lib/bootstrap';
+
+* {
+   outline: 0 !important;
+}
+
+#main {
+  position: absolute;
+  top: 0;
+  left: 140px;
+  z-index: 99;
+  img {
+    padding: 50px 30px;
+    background: rgba(255, 255, 255, 0.9);
+  }
+}
+
+#stratus, #stratus iframe {
+  height: 62px !important;
+  overflow: hidden !important;
+}
+
+#stratus {
+    top: 338px !important;
+    left: 140px !important;
+    width: 260px !important;
+}
+
+.links span {
+  float: left;
+  clear: both;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  display: block;
+  width: 240px;
+  margin-top: 3px;
+}
