@@ -17,6 +17,6 @@ $(document).ready(function(){
     download: false,
     stats: false,
     align: 'top',
-    theme: 'http://localhost:9000/styles/stratus.css'
+    theme: "http://" + window.location.host + '/styles/stratus.css'
   });
 });
