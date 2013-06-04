@@ -266,6 +266,7 @@ module.exports = function (grunt) {
                         '.htaccess',
                         'images/{,*/}*.{webp,gif}',
                         'styles/fonts/*',
+                        'styles/stratus.css',
                         'CNAME'
                     ]
                 }, {
